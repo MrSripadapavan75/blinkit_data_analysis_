@@ -1,0 +1,50 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Local databases and generated artifacts
+*.sqlite
+*.sqlite3
+*.db
+
+# Optional: ignore large raw or intermediate datasets if they should not be committed
+# dataset/BlinkIT-Grocery-Data.csv
+# dataset/blinkit_sales_cleaned.csv
+
+# Optional: ignore Excel temporary lock files
+~$*.xlsx
+~$*.xls
+
+# Tableau temporary and lock files
+*.twb.lock
+*.twbx.lock
